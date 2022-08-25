@@ -3,16 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Domain", "CMS.Domain\CMS.Domain.csproj", "{19274D4B-AAAC-4E4D-B42C-553E8EBD90EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS.Domain", "CMS.Domain\CMS.Domain.csproj", "{19274D4B-AAAC-4E4D-B42C-553E8EBD90EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Core", "CMS.Core\CMS.Core.csproj", "{F58EC229-0F99-454E-999B-86F0B8EDC263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS.Core", "CMS.Core\CMS.Core.csproj", "{F58EC229-0F99-454E-999B-86F0B8EDC263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Application", "CMS.Application\CMS.Application.csproj", "{40FA2545-464E-4D77-8B75-5997DB1D5868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS.Application", "CMS.Application\CMS.Application.csproj", "{40FA2545-464E-4D77-8B75-5997DB1D5868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSInfrastructure", "CMSInfrastructure\CMSInfrastructure.csproj", "{81887D37-00CA-4C0F-8592-232BB367FF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS.Infrastructure", "CMSInfrastructure\CMS.Infrastructure.csproj", "{81887D37-00CA-4C0F-8592-232BB367FF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{96FF172B-9CEF-4F44-9F3B-6FE33FBB88C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{96FF172B-9CEF-4F44-9F3B-6FE33FBB88C1}"
 EndProject
+<<<<<<< Updated upstream
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.UI", "CMS.UI\CMS.UI.csproj", "{993DE079-2533-443D-B9FC-36DEE92DC154}"
+EndProject
+>>>>>>> Stashed changes
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +44,13 @@ Global
 		{96FF172B-9CEF-4F44-9F3B-6FE33FBB88C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96FF172B-9CEF-4F44-9F3B-6FE33FBB88C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96FF172B-9CEF-4F44-9F3B-6FE33FBB88C1}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+=======
+		{993DE079-2533-443D-B9FC-36DEE92DC154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993DE079-2533-443D-B9FC-36DEE92DC154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993DE079-2533-443D-B9FC-36DEE92DC154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993DE079-2533-443D-B9FC-36DEE92DC154}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
